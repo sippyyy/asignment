@@ -45,7 +45,7 @@ A modern, responsive social media dashboard built with Next.js, featuring authen
 ### **Quick Start**
 ```bash
 # Clone the repository
-git clone <your-repo-url>
+git clone https://github.com/sippyyy/asignment.git
 cd my_assignment
 
 # Install dependencies
@@ -58,7 +58,7 @@ npm run dev
 ```
 
 ### **Environment Variables**
-Create a `.env.local` file (optional):
+Create a `.env.local` file:
 ```bash
 NEXT_PUBLIC_API_URL=https://jsonplaceholder.typicode.com
 ```
@@ -216,9 +216,6 @@ GET /posts              # Get all posts
 GET /posts/{id}         # Get specific post
 GET /posts/{id}/comments # Get post comments
 
-// Users  
-GET /users              # Get all users
-GET /users/{id}         # Get specific user
 ```
 
 ### **API Configuration**
@@ -283,6 +280,8 @@ npm start        # Serves production build locally
 - **Real-time Updates** - WebSocket integration
 - **Image Upload** - Media handling for posts
 - **Dark Mode** - Theme switching capability
+- **Left Content** - Maybe friend's activities
+- **Right Content** - Promotion
 
 ### **Performance Optimizations**
 - **Virtual Scrolling** - For large datasets
